@@ -60,7 +60,7 @@ function Makesound(){
   osc.amp(0.1);
   osc.start();
   
-  osc.stop(0.7);
+  osc.stop(1.5);
 }
 
 function explosion(){
@@ -344,27 +344,6 @@ function LetItSnow2(){
   else if(song_flow<1240){
     ready(windowWidth*3/5, note('C+'),(bpm));
   }
-//   else if(song_flow<){
-//     ready(windowWidth*4/5, note(''), );
-//   }
-//   else if(song_flow<){
-//     ready(windowWidth/5, note(''), );
-//   }
-//   else if(song_flow<){
-//     ready(windowWidth*2/5, note(''), );
-//   }
-//   else if(song_flow<){
-//     ready(windowWidth*3/5, note(''), );
-//   }
-//   else if(song_flow<){
-//     ready(windowWidth*4/5, note(''), );
-//   }
-//   else if(song_flow<){
-//     ready(windowWidth/5, note(''), );
-//   }
-//   else if(song_flow<){
-//     ready(windowWidth*2/5, note(''), );
-//   }
   
 }
 
